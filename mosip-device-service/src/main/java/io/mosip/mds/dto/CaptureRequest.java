@@ -6,6 +6,7 @@ public class CaptureRequest {
 
     public class CaptureBioRequest
     {
+    	
         public String type; //type of the biometric data,
         public Integer count; //fingerprint/Iris count, in case of face max is set to 1
         public String[] bioSubType; //finger or iris to be excluded
